@@ -1,6 +1,6 @@
 # About
 ::: info Cube
-Cube <Badge text="default theme"/> is the new generation IoT platform to auto-pilot your IoT business and supercharge your productivity.
+Cube is the new generation IoT platform to auto-pilot your IoT business and supercharge your productivity.
 :::
 
 
