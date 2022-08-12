@@ -2,7 +2,8 @@ export default {
     //description meta tag for the site
     title: 'Cube Press',
     base: '/cubepress/',
-    description: "IOT Cube Documentation",
+    lang: 'en-US',
+    description: 'IOT Cube Documentation',
     lastUpdated: true,
     lastUpdatedText: 'Update Date',
 
@@ -12,6 +13,10 @@ export default {
         searchMaxSuggestions: 10,
         lastUpdated: true,
         lastUpdatedText: 'Updated Date',
+        editLink:{
+            pattern: 'https://github.com/links-field/cubepress/edit/main/docs/:path',
+            text: 'Edit this page on GitHub'
+        },  
         footer: {
             message: '',
             copyright: 'Copyright © 2022-present Links Field Networks'
