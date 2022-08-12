@@ -16,13 +16,23 @@ export default {
             { text: 'About Links Field', link: 'https://www.linksfield.net' },
             
         ],
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+        ],
         sidebar: [
             {
               text: 'Guide',
               collapsible: true,
               items: [
                 { text: 'Introduction', link: '/guide/' },
-                { text: 'Getting Started', link: '/guide/gettingstarted' }
+                { text: 'Getting Started', link: '/guide/gettingstarted' },
+                { text: 'Get Account', link: '/guide/getaccount'},
+                { text: 'Order SIMs', link: '/guide/order'},
+                { text: 'Dashboard', link: '/guide/dashboard'},
+                { text: 'SIM Status', link: '/guide/simstatus'},    
+                { text: 'Check Your SIMs', link: '/guide/sim'},
+                { text: 'CDR', link: '/guide/cdr'},
+
               ]
             },
             {

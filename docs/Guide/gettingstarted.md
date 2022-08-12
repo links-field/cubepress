@@ -1,7 +1,3 @@
----
-title: "02 Getting Started"
----
-
 # Getting Started
 
 ::: info Cubers
@@ -10,90 +6,74 @@ Welcome to join us! :tada:
 
 ## :woman_technologist: First, account!
 
-if you already have an account (email, password) with Cube, sign in [here](https://beta.iotcube.link).
+* If you already have an account (email, password) with Cube, sign in [here](https://beta.iotcube.link).
 
-else check [here](../2-Account/01%20Sign%20Up.md) for details on new account.
+* Else check [here](getaccount) for information on getting a new account.
 
 ::: tip
-Additionally, when you already have an account, but you have forgotten the password, simply choose “forget password” to reset your password on the sign in page.
+Additionally, when you already have an account, but you have forgotten the password, simply choose “forget password” on the sign-in page to reset your password.
 :::
 
-## :joystick: Dashboard
+## 🏢 Organization
+When you sign in, Cube will sign you in with your default organization (if not appointed, the first organization you have joined). 
 
-Cube dashboard enables and renders a logical and statistical ready operation for your business.
+One account (uniquely identified by email) can have roles with multiple organizations. 
 
-### Information Cards
+::: info Create Organization
+Admin and above roles can [create organizations](organization).
+:::
 
-### 1. Active SIMs
+## 👨🏻‍💼 Roles
+There are following roles:
 
-This card shows all the activated SIM that your organization owns and uses and the monthly trend of the count. Click to jump to SIM list that displays all the activated cards (already filtered)
+| Roles        | Description          |
+| ------------- |:-------------:|
+| **`superadmin`**    | One per organization, full access  |
+| **`admin`** | administrators and operational access |
+| **`operator`** | operational access |
+| **`user`** | read-only access |
 
-![Card - Active SIMs](/images/activesim.png)
+::: info Roles
+Click [here]() for a deep-dive in **permissions and roles**.
+:::
+## SIMs
+After you sign-in, you will be able to see all the SIMs your oganization currently owns. 
 
-Current Usage
+Depending on which role you have with the organization, you will have permission to access the SIMs accordingly.
 
-Total data usage of all the cards in use since the 1st day of current month. Refreshed at least daily.
+SIM has its own life cycle status, in which SIM exhibits different behaviours. 
 
-Overage SIMs
+::: info SIM Status
+Click [here](simstatus) for more information. 
+:::
 
-Number of SIMs that have experienced data overage at current time. It could lead to extra cost.
+::: info Order SIMs
+Click [here](order) to checkout SIM ordering.
+:::
 
-click to jump to SIM list to check the overage SIMs in detail.
+::: info SIM operations
+Click [here](sim) to find out more about the SIM operations.
+:::
 
-Expire Soon
+## SMS
+Cube offers a way to send SMS to SIMs, either individually or in bulk. 
 
-Number of SIMs that will expire soon ( in 45 days).
+::: tip 
+Do note that not all SIMs support this feature. The greyed button suggests 'not supported'.
+:::
 
-click to jump to SIM list to check on those SIMs.
+::: info SMS
+Check [here](sms) to learn how to send SMS from Cube.
+:::
+## CDR
+We generate a standard CDR (Call Detail Record) on each data/call session or SMS. But there is usually latency between the actual session and the data synchronization. 
 
-Usage Chart
+::: tip Latency
+Latency varies from operator to operator, more commonly, it is between 10 minutes to 24 hours.
+:::
 
-In the chart you may view your data/sms usage in different time dimensions/ timeframes. The update frequency varies, depending on different MNOs' system capabilities.
+Cube provides CDR records for each SIM, detailing session duration, type, direction of data link, volume, country, MNO and so on, which can be traced back to 3 months ago. For CDR that is more than 3 months old will be archived and can be 
 
-More commonly, expect a latency that spans between 10 minutes ~ 24 hours.
-
-SIMs
-
-List
-
-You may check the basic information of the SIM in the list, but we offer enriched features above and beyond.
-
-table setting to configure the table to show only the columns that is of interest to you.
-
-工 height adjustment for table rows
-
-global search bar
-
-refresh table
-
-send SMS to the selected SIM
-
-export the selected SIMs or all SIMs into excel file
-
-SIM List
-
-Detail
-
-You may press ▶ to expand SIM detail
-
-SIM overview info
-
-SIM bundle info
-
-Bundle history and CDR info
-
-SMS
-
-You send SMS from the SIM List
-
-Action column: Send SMS to the single SIM
-
-Tool bar: Send SMS to selected multiple SIMs
-
-After sending, it will direct you into the SMS List to check the status or reply.
-
-Or you could simply go to SMS menu from the Sidebar navigation, and send SMS to SIMs in batch.
-
-CDR
-
-Related articles
+::: info CDR query
+For more details, click [here](cdr)
+:::
