@@ -96,8 +96,26 @@ https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/var
  * Component: Custom Block
  * -------------------------------------------------------------------------- */
 
+ .vp-doc .custom-block.info {
+  border-left-width: 6px;
+}
+.vp-doc .custom-block.tip {
+  border-left-width: 6px;
+}
+.vp-doc .custom-block.warning {
+  border-left-width: 6px;
+}
+.vp-doc .custom-block.danger {
+  border-left-width: 6px;
+}
+.vp-doc .custom-block {
+  font-size: 16px;
+}
+
  :root {
-  --vp-custom-block-code-font-size: 14px;
+  
+
+  --vp-custom-block-code-font-size: 16px;
 
   --vp-custom-block-info-border: var(--vp-c-blue-light);
   --vp-custom-block-info-text: var(--vp-c-blue-dark);

@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/what-is-vitepress
+      link: /guide/gettingstarted
     - theme: alt
       text: Go to Cube
       link: https://beta.iotcube.link
@@ -21,10 +21,10 @@ features:
   - title: About Cube
     icon: 🎛
     link: /guide/gettingstarted
-    details: Cube is the IOT connectivity service management platform that steamlines your IOT operations and supercharge your productivity
-  - title: Cube Press
+    details: Cube is the IoT connectivity service management platform that steamlines your IoT operations and supercharge your productivity
+  - title: About Cube Press
     icon: 📙
-    details: Here at Cube Press we present to you the playbook of Cube. Guides, FAQ as well as other handy IoT information and latest news at your fingertips.
+    details: Here at Cube Press we present to you the playbook of Cube IoT. Guides, FAQ as well as other handy IoT information and latest news at your fingertips.
 
 
 #footer
