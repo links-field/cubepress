@@ -2,10 +2,15 @@ export default {
     //description meta tag for the site
     title: 'Cube Press',
     description: "IOT Cube Documentation",
+    lastUpdated: true,
+    lastUpdatedText: 'Update Date',
+
     themeConfig: {
         logo: '/logo.png',
         search: false,
         searchMaxSuggestions: 10,
+        lastUpdated: true,
+        lastUpdatedText: 'Updated Date',
         footer: {
             message: '',
             copyright: 'Copyright © 2022-present Links Field Networks'
@@ -17,7 +22,7 @@ export default {
             
         ],
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+            { icon: 'github', link: 'https://github.com/links-field/cubepress' },
         ],
         sidebar: [
             {

@@ -36,7 +36,7 @@ There are following roles:
 ::: info Roles
 Click [here]() for a deep-dive in **permissions and roles**.
 :::
-## SIMs
+## 📶 SIMs
 After you sign-in, you will be able to see all the SIMs your oganization currently owns. 
 
 Depending on which role you have with the organization, you will have permission to access the SIMs accordingly.
@@ -55,7 +55,7 @@ Click [here](order) to checkout SIM ordering.
 Click [here](sim) to find out more about the SIM operations.
 :::
 
-## SMS
+## 💌 SMS
 Cube offers a way to send SMS to SIMs, either individually or in bulk. 
 
 ::: tip 
@@ -65,7 +65,7 @@ Do note that not all SIMs support this feature. The greyed button suggests 'not 
 ::: info SMS
 Check [here](sms) to learn how to send SMS from Cube.
 :::
-## CDR
+## 📊 CDR
 We generate a standard CDR (Call Detail Record) on each data/call session or SMS. But there is usually latency between the actual session and the data synchronization. 
 
 ::: tip Latency

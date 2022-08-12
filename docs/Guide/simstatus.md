@@ -12,22 +12,22 @@ This chapter describes SIM life cycle stages.
 
 
 
-## **`Pre-activated`**
+## Pre-activated
 
 
 
-## **`Active`**
+## Active
 > or `Activated`
 
 
 
 
-## **`Paused`**
+## Paused
 
 
 
-## **`Expired`**
+## Expired
 
 
 
-## **`Terminated`**
+## Terminated
