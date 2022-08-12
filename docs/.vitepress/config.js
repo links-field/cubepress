@@ -1,6 +1,7 @@
 export default {
     //description meta tag for the site
     title: 'Cube Press',
+    base: '/cubepress/',
     description: "IOT Cube Documentation",
     lastUpdated: true,
     lastUpdatedText: 'Update Date',
