@@ -51,7 +51,8 @@ export default {
               collapsible: true,
               items: [
                 { text: 'Introduction', link: '/sim/' },
-                { text: 'SIM', link: '/sim/sim' }
+                { text: 'SIM', link: '/sim/sim' },
+                { text: 'Pause SIM', link: '/sim/pausesim'},
                 
               ]
             }
