@@ -1,4 +1,5 @@
 # SIM Status
+> in draft
 This chapter describes SIM life cycle stages.
 
 ## Overview
