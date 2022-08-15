@@ -44,7 +44,7 @@ More commonly, expect a latency that spans between 10 minutes ~ 24 hours.
 
 
 ## 🌎 Dashboard - Heatmap
-Heatmap shows the geolocations (according to Mobile Country Code) of all your Active SIM assets based on their last 24-hour activity. 
+Heatmap shows the geographical (according to Mobile Country Code) distribution of all your Active SIM assets based on their last 24-hour activity. 
 
 ::: info Active SIMs
 Active SIMs refer to those that have at least 1 CDR data in the last 24(default)/48/72 hours
