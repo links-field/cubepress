@@ -4,6 +4,8 @@
 This chapter describes SIM life cycle stages.
 
 ## Overview
+![all states](/states.png)
+
 | Status        | Description           | Billing  |
 | ------------- |-------------| -----|
 | `Pre-activated`     | SIM is in test.active stage | `not started` |
@@ -13,7 +15,6 @@ This chapter describes SIM life cycle stages.
 | `Terminated`     | SIM service is terminated and can NOT be renewed | `ended` |
 
 
-![all states](/states.png)
 
 ## Pre-activated
 

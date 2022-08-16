@@ -9,7 +9,7 @@ For account, cube funciton related issues, feedback, support requests:
 
 ::: info 
 For new order related:
-[to: sales@linksfield.net ]
+[to: sales@linksfield.net](mailto:sales@linksfield.net)
 :::
 
 ## Through support widget in Cube

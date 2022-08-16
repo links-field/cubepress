@@ -60,6 +60,13 @@ export default {
                 { text: 'Pause SIM', link: '/sim/pausesim'},
                 
               ]
+            },
+            {
+              text: 'Account In Depth',
+              collapsible: true,
+              items: [
+                { text: 'Introduction', link: '/account/' },
+              ]
             }
           ]
     },
