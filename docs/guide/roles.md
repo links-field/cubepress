@@ -34,3 +34,10 @@ By default, one organization can have **maximum 10 accounts** (of any combinatio
 | Operator | `SMS` | `read`, `send` | 
 | Operator | `CDR` | `read`|
 
+## Account Management
+
+Administrators can **create, delete, enable/disable, edit accounts** from `settings` page.
+
+::: info
+[Account Management - Deep Dive](/account/)
+:::
