@@ -20,7 +20,7 @@ When you sign in, Cube will sign you in with your default organization (if not a
 One account (uniquely identified by email) can have roles with multiple organizations. 
 
 ::: info Create Organization
-Admin and above roles can [create organizations](organization).
+Admin and above roles can [create organisation](organisation).
 :::
 
 ## 👨🏻‍💼 Roles
@@ -34,7 +34,7 @@ There are following roles:
 | **`user`** | read-only access |
 
 ::: info Roles
-Click [here]() for a deep-dive in **permissions and roles**.
+Click [here](roles) for information in **permissions and roles**.
 :::
 ## 📶 SIMs
 After you sign-in, you will be able to see all the SIMs your oganization currently owns. 
@@ -52,7 +52,7 @@ Click [here](order) to checkout SIM ordering.
 :::
 
 ::: info SIM operations
-Click [here](sim) to find out more about the SIM operations.
+Click [here](checksim) to find out more about the SIM operations.
 :::
 
 ## 💌 SMS

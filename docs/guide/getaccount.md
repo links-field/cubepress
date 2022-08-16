@@ -12,6 +12,10 @@ We currently do not support Self Sign Up via Cube. Please contact the sales repr
 
 Once application for registering a new organization is validated, the account information will be sent to the email address of the designated `superadmin`.
 
+If you already have an admin account with an Organization, and would like to create another oganization, you may do so:
+::: info
+[Create Organisation](organisation)
+:::
 
 ## Existing Organization with other platform
 If you are already onboard with us for the connectivity platform "UWP", contact your technical support or sales representative, to transfer your account information to Cube. Or you could send email to [support@iotcube.link](mailto:support@iotcube.link) for this request.

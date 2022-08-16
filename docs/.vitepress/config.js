@@ -38,11 +38,16 @@ export default {
                 { text: 'Introduction', link: '/guide/' },
                 { text: 'Getting Started', link: '/guide/gettingstarted' },
                 { text: 'Get Account', link: '/guide/getaccount'},
+                { text: 'Organisation', link: '/guide/organisation'},
+                { text: 'Collaborators', link: '/guide/collaborator'},
+                { text: 'Roles', link: '/guide/roles'},
                 { text: 'Order SIMs', link: '/guide/order'},
                 { text: 'Dashboard', link: '/guide/dashboard'},
+                { text: 'Check Your SIMs', link: '/guide/checksim'},
                 { text: 'SIM Status', link: '/guide/simstatus'},    
-                { text: 'Check Your SIMs', link: '/guide/sim'},
                 { text: 'CDR', link: '/guide/cdr'},
+                { text: 'Support', link: '/guide/support'},
+
 
               ]
             },

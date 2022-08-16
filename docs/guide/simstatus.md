@@ -42,6 +42,8 @@ In activated state, when you forsee a period of inactivity of the SIMs, you coul
 ::: tip
 Toggle between `paused` and `active` on the SIM List by using toggle switch.
 ![toggleswitch](/toggleswitch.png)
+![pause gif](/pause.gif)
+
 The operations are done in real-time and effect is immediate.
 :::
 

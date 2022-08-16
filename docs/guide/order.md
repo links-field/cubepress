@@ -11,5 +11,5 @@ If your have more than one organization, you may also choose to transfer SIMs fr
 
 
 ::: tip
-Do allow **1-3 working days** before you can view the newly ordered SIMs to **appear in your Cube account**.
+Do allow **1-3 working days** before you can view the newly ordered SIMs to **be displayed in your Cube account**.
 :::
