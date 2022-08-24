@@ -37,12 +37,32 @@ Edit tags or notes in bulk will **override** the existing tags/notes.
 ### Columns
 Data columns are:
 #### ICCID
+The unique **I**ntegrated **C**ircuit **C**ard **Id**entification Number of the SIM by global standards.
+
+#### Organisation
+Organisation that owns the SIM asset.
 
 
-#### Orgnization
 #### IMEI
+**I**nternational **M**obile **E**quipment **I**dentity that identifies the device which uses the SIM.
+
+::: tip
+Dial `*#06#` on a screened device to find out the IMEI
+:::
+
+
+
 #### MSISDN
+**M**obile **S**tation **I**ntegrated **S**ervices **D**igital **N**etwork is the phone number which identifies a device during calls or data sessions.
+
+
 #### Status
+It indicates the current life cycle stage of the SIM.
+::: info
+refer to [SIM status](/guide/simstatus) for more details.
+:::
+
+
 #### Tag
 #### Notes
 #### Expire At

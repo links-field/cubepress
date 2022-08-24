@@ -11,7 +11,7 @@ Cube dashboard enables and renders a statistical analyis of your assets for a be
 This card shows all the **activated SIM** that your organization owns and uses and the **monthly trend** of the count. Click to jump to SIM list that displays all the activated cards (filtered)
 
 ::: info SIM Status 
-To know more about various SIM status and how it works, click [here](simstatus)
+To know more about various SIM status and how each one works, click [here](simstatus)
 :::
 
 ![Card - Active SIMs](/activesim.png)
@@ -47,9 +47,11 @@ More commonly, expect a latency that spans between 10 minutes ~ 24 hours.
 Heatmap shows the geographical (according to Mobile Country Code) distribution of all your Active SIM assets based on their last 24-hour activity. 
 
 ::: info Active SIMs
-Active SIMs refer to those that have at least 1 CDR data in the last 24(default)/48/72 hours
+Active SIMs refer to those that have at least 1 CDR data in the last 24(default)/48/72 hours (selectable)
 :::
 
 * SIMs are grouped and counted by the **Mobile Country Code** (regions may have different MCC even though they belong to the same country)
 
 * **Darker** the color, **more SIMs** are inside that region. 
+
+![heatmap illustration](/heatmap.png)

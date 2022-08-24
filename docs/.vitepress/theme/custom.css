@@ -112,6 +112,8 @@ https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/var
   font-size: 16px;
 }
 
+
+
  :root {
   
 
@@ -141,6 +143,14 @@ https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/var
   --vp-custom-block-details-text: var(--vp-custom-block-info-text);
   --vp-custom-block-details-bg: var(--vp-custom-block-info-bg);
   --vp-custom-block-details-code-bg: var(--vp-custom-block-details-bg);
+}
+
+img:not(.VPImage) {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 3px rgba(0, 0, 0, 0.1), 0 6px 30px 6px rgba(0, 0, 0, 0.09);
+}
+img:hover{
+  box-shadow: 0 0 0 0;
 }
 
 .dark {

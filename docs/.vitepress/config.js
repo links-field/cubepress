@@ -46,6 +46,7 @@ export default {
                 { text: 'Check Your SIMs', link: '/guide/checksim'},
                 { text: 'SIM Status', link: '/guide/simstatus'},    
                 { text: 'CDR', link: '/guide/cdr'},
+                { text: 'SMS', link: '/guide/sms'},
                 { text: 'Support', link: '/guide/support'},
 
 
