@@ -108,7 +108,7 @@ Click [here](/sim/overage) for **overage policy deep-dive**
 Data usage history can be queried via date picker and can be downloaded.
 
 ::: warning Limitation
-Usage history can't be dated back to more than 12 months.
+Usage history can't be dated back to more than 12 months ago.
 :::
 ---
 ### Bundle History

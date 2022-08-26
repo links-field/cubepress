@@ -1,6 +1,10 @@
 # About
 ::: info Cube
 Cube is the new generation IoT platform to auto-pilot your IoT business and supercharge your productivity.
+
+Our _mission statement_ is:
+**Productivity**, **Simplicity**, and **Empowerment**
+
 :::
 
 
