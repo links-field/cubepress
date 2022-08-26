@@ -2,12 +2,12 @@
 
 
 ::: tip
-By default, one organization can have **maximum 10 accounts** (of any combination of roles)
+By default, one organisation can have **maximum 10 accounts** (of any combination of roles)
 :::
 
 ## Superadmin
 
-* There is **only one** superadmin per organization
+* There is **only one** superadmin per organisation
 * It **CANNOT be deleted** though it can be transferred
 * It has the **full access permissions** to organisation and its assets and accounts
 
