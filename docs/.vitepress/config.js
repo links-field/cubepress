@@ -59,7 +59,7 @@ export default {
                 { text: 'Introduction', link: '/sim/' },
                 { text: 'SIM', link: '/sim/sim' },
                 { text: 'Pause SIM', link: '/sim/pausesim'},
-                
+                { text: 'Overage Policy', link: '/sim/overage'}
               ]
             },
             {
