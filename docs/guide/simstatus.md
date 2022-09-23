@@ -10,7 +10,7 @@ This chapter describes SIM life cycle stages.
 | ------------- |-------------| -----|
 | `Pre-activated`     | SIM is in test.active stage | `not started` |
 | `Active`     | SIM is fully activated and in use | `started` |
-| `Paused`     | SIM service is temporarily not suspended | `suspended` |
+| `Paused`     | SIM service is temporarily suspended | `suspended` |
 | `Expired`     | SIM service is expired but can be renewed | `stopped` |
 | `Terminated`     | SIM service is terminated and can NOT be renewed | `ended` |
 
@@ -20,9 +20,9 @@ This chapter describes SIM life cycle stages.
 
 * When SIMs are **shipped**, by default they are set to be in **pre-activated period/state**.
 
-* SIMs that come with a complementary **Test Package**, (100KB or other volume settings depending on the terms of the service contract), could use the test package service during pre-activated period.
+* SIMs that come with a complementary **Test Package**, (100KB or other volume, depending on the terms of the service contract), could use the test package service during pre-activated period.
 
-* Pre-activation period is typically set to be **0~6** months (depending on the terms of the service contract and it could be extended).
+* Pre-activation period is typically set to be **0~6** months (depending on the terms of the service contract and it could be extended in some cases).
 
 * At the **expiry** of the pre-activation period, or after the test package quota is **used up**, **whichever occurs earlier**, SIMs will automatically go into **"activated(active)"** state, when the **billing starts**.
 
