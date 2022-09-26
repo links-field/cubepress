@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.7b388b32.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"org/create.md","lastUpdated":1664207526000}'),r={name:"org/create.md"};function o(c,s,n,p,d,_){return a(),t("div")}var f=e(r,[["render",o]]);export{m as __pageData,f as default};

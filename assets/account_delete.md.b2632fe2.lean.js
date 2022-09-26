@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a}from"./app.7b388b32.js";const f=JSON.parse('{"title":"Delete Account","description":"","frontmatter":{},"headers":[],"relativePath":"account/delete.md","lastUpdated":1664207526000}'),n={name:"account/delete.md"},s=a("",7),c=[s];function i(r,l,d,h,p,u){return o(),t("div",null,c)}var g=e(n,[["render",i]]);export{f as __pageData,g as default};
