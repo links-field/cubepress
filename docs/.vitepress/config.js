@@ -42,6 +42,7 @@ export default {
                 { text: 'Collaborators', link: '/guide/collaborator'},
                 { text: 'Roles', link: '/guide/roles'},
                 { text: 'Order SIMs', link: '/guide/order'},
+                { text: 'In Cube', link: '/guide/incube'},
                 { text: 'Dashboard', link: '/guide/dashboard'},
                 { text: 'Check Your SIMs', link: '/guide/checksim'},
                 { text: 'SIM Status', link: '/guide/simstatus'},    
@@ -63,12 +64,24 @@ export default {
               ]
             },
             {
-              text: 'Account In Depth',
+              text: 'Account Deep Dive',
               collapsible: true,
               items: [
                 { text: 'Introduction', link: '/account/' },
+                { text: 'Delete', link: '/account/delete'},
+                { text: 'Disable', link: '/account/disable'}, 
+                { text: 'Edit', link: '/account/edit'}
               ]
-            }
+            },
+            {
+              text: 'Organisation Deep Dive',
+              collapsible: true,
+              items: [
+                { text: 'Introduction', link: '/org/'},
+                { text: 'Create', link:'/org/create'},
+                { text: 'Manage', link:'/org/manage'},
+              ]
+            },
           ]
     },
     

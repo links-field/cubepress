@@ -14,8 +14,8 @@ Welcome to join us! :tada:
 Additionally, when you already have an account, but you have forgotten the password, simply choose “forget password” on the sign-in page to reset your password.
 :::
 
-## 🏢 Organization
-When you sign in, Cube will sign you in with your default organization (if not appointed, the first organization you have joined). 
+## 🏢 Organisation
+When you sign in, Cube will sign you in with your default organisation (if not appointed, the first organisation you have joined). 
 
 One account (uniquely identified by email) can have roles with multiple organizations. 
 
