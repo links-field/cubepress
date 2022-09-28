@@ -16,7 +16,7 @@ When you are setting up a structure for your company and branch offices around t
 
 * **Mark(UK operational PIC)** - **Created London and Sheffield branches** and invite **Mary** to oversee Sheffield as a user.
 
-* **Mary(Sheffield)** - is invited to **Sheffield** branch as a **user**. She can observe and monitor.
+* **Mary(Sheffield)** - is invited to **Sheffield** branch as a **user**. She can observe and monitor. But she CANNOT create organisation.
 
 :::tip
 However, Thomas won't know **what's going on with local branches, e.g., London.** Therefore Mark invites Thomas to be the admin so that he can be overseeing its operations.
@@ -77,7 +77,7 @@ Similarly as company hierarchy, agent hierarchy **authorises its sub level Organ
 | Mary |  Industry B | admin |
 |  |  UK Branch | superadmin |
 
-Unlike company hierarchy, operations of Industry A and B are **of no interest** to Thomas.
+Unlike company hierarchy, in this case operations of Industry A and B are **of no interest** to Thomas.
 
 ## Mixed Model
 In above example, **Mary** can again develop her own organisational structure based on either company hierarchy or centralised model. 
