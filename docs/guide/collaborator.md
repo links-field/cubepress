@@ -1,7 +1,7 @@
 # Collaborators
 
 
-Once you have an administror role with an organisation, you may invite collaborator to join the organisation from `settings` page.
+Once you have an administror role with an organisation, you may invite other collaborators to join the organisation from `settings` page.
 
 
 ## Invite 

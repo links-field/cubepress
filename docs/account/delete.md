@@ -1,4 +1,5 @@
 # Delete Account
+> in draft
 
 When an account is **no longer needed**, the organisation's administrator can choose to delete the account from the organistaion.
 

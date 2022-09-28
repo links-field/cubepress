@@ -1,5 +1,5 @@
 # Edit
-> in draft
+
 
 The administrators of the organisation, is allowed to edit certain properties of the account. These properties include:
 
@@ -7,6 +7,9 @@ The administrators of the organisation, is allowed to edit certain properties of
 * Role
 * Status
 * Language
+
+
+As an exception, `Role` in superadmin's account CANNOT be changed.
 
 
 ::: tip

@@ -78,7 +78,7 @@ export default {
               collapsible: true,
               items: [
                 { text: 'Introduction', link: '/org/'},
-                { text: 'Create', link:'/org/create'},
+                
                 { text: 'Manage', link:'/org/manage'},
               ]
             },
