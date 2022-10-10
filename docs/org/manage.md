@@ -19,7 +19,7 @@ When you are setting up a structure for your company and branch offices around t
 * **Mary(Sheffield)** - is invited to **Sheffield** branch as a **user**. She can observe and monitor. But she CANNOT create organisation.
 
 :::tip
-However, Thomas won't know **what's going on with local branches, e.g., London.** Therefore Mark invites Thomas to be the admin so that he can be overseeing its operations.
+However, Thomas won't know **what's going on with local branches, e.g., London.** since he doesn't have any role there. Therefore Mark invites Thomas to be the admin so that he can be overseeing its operations.
 :::
 
 Below is the table of who can access which organisations:

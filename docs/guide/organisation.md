@@ -21,6 +21,10 @@ When you are in `My Organisation` List, click the button `Create organisation`.
 
 Once the basic information is filled up, **you will automatically become the `superadmin` of the new organisation**, and the wizard will then direct you to the oganisation's setting page to invite other collaborators should you choose so. 
 
+::: tip 
+Only administrators (`admin` and `superadmin`) can create organisations.
+:::
+
 ::: info 
 [Invite collaborators](collaborator)
 :::
