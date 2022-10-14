@@ -14,6 +14,9 @@ This chapter describes SIM life cycle stages.
 | `Expired`     | SIM service is expired but can be renewed | `stopped` |
 | `Terminated`     | SIM service is terminated and can NOT be renewed | `ended` |
 
+## SIM Status Transition
+
+![status transition](/statustransition.png)
 
 
 ## Pre-activated
@@ -31,7 +34,7 @@ This chapter describes SIM life cycle stages.
 
 Once SIMs are in activated state, the billing starts. Services are provided according to the **bundle** assigned to the SIMs. 
 
-If the bundle comes with a **service warranty/validity period**, the service will automatically **expire** at the end of the period should there be no renewal or replacement.
+If the bundle comes with a **service warranty/validity period**, the service will automatically **expire** at the end of the period should there be no renewal.
 
 ## Paused
 In activated state, when you forsee a period of inactivity of the SIMs, you could suspend the service until the need to use them rises again. The SIMs will then be placed in `paused` state when the billing temporarily halts.
