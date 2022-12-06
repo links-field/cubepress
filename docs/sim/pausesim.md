@@ -4,7 +4,7 @@
 
 Suspend a SIM is to suspend all of its services, including data, sms, or voice service should it have any. Suspension of a SIM can only happen when it is in `ACTIVE` state.
 
-Resume a SIM is to resume all of its suspended services according to its service contract in effect. Resumption of a SIM can only happen when it is in `SUSPENDED` state.
+Resume a SIM is to resume all of its suspended services according to its service contract in effect. Resumption of a SIM can only happen when it is in `PAUSED` state.
 
 ## 🤔 What to expect
 ### 🚗 Device
