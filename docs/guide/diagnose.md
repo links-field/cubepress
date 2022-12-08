@@ -15,20 +15,20 @@ Hit the `diagnose` button, you can get a quick diagnosis revolving the status an
 ## Items `V1.0`
 | Item        | ✅           | ❌  |
 | ------------- |-------------| -----|
-|ICCID| Information availabled| -|
-|IMSI| Information availabled| -|
-|SIM Status| `Active` | otherwise|
-|Produced At| Information availabled| -|
-|Pre-activated Period| Information availabled| -|
-|Pre-deactivated Period| Information availabled| -|
+|ICCID| Information available| -|
+|IMSI| Information available| -|
+|SIM Status| `Active` | other values|
+|Produced At| Information available| -|
+|Pre-activated Period| Information available| -|
+|Pre-deactivated Period| Information available| -|
 |Test Data Status| Active if in Pre-activated state| Not active in pre-activated state|
 |Test Data Period| >0 if in Pre-activated state| otherwise in Pre-activated state|
-|In use bundle| true: there is a bundle in use| false: no bundle available |
+|In use bundle| true: there is a bundle in use| false: no bundle |
 |Bundle Auto Enable| true: bundle is enabled automatically when added| otherwise|
-|MNO Status| Active | otherwise|
+|MNO Status| Active | other values|
 
 
-## How to conclude
+## A quick map to conclude
 
 | SIM State        | ✅  Healthy        | ❌ Reasons of disconnection |
 | ------------- |-------------| -----|
