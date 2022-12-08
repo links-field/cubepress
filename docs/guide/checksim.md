@@ -1,121 +1,126 @@
 # 📶 SIMs
 
+You may check the basic information of the SIMs from SIM menu in the sidebar, and we offer enriched features above and beyond.
 
 
-## SIM List
-
-You may check the basic information of the SIM in the list, and we offer enriched features above and beyond.
-
-
----
-### Table Toolbar ⚙️
+## Table Toolbar ⚙️
 > Configuration of the table
 
 ![toolbar](/toolbar.png)
 
 * **Height Setting** for table rows: _default, medium or compact._
 * **Column Setting** to check only the columns you'd like to see
-::: tip
-Tick 3-4 columns of interets, view data **without left and right scrolling**
-:::
-
-* **Refresh Table Data**
+* **Refresh Table Data** clear all the filters and pull the latest data
 * **Global Search Bar** to search by ICCID/IMEI/MSISDN
 
 ::: tip 
-Quick find the SIM by entering **partial ending digits** in global search bar. Searching will happen in order of `ICCID`, `IMEI` then `MSISDN` and return all the matched results.
+Quickly find the SIM by entering **partial ending digits** in global search bar. Searching will happen in order of `ICCID`, `IMEI` then `MSISDN` and return all the matched results.
 
-E.g.: `023801`=> ICCID `89013113804763023801`, IMEI `230A8X023801`
+E.g.: `023801`=> 
+* record 1: ICCID `89013113804763023801`, 
+* record 2: ICCID `89013113804763079976`, IMEI `230A8X023801`
+
+You could also search for **multiple SIMs** at one time by seperating the number with ','
+
+E.g.: `023801, 8802` =>
+* record 1: ICCID `89013113804763023801`
+* record 2: ICCID `89013113804763948802`
 :::
 
 
+
 ---
-### Table Menu Bar ⚡️
+## Table Menu Bar ⚡️
 > Actions present in menu bar allow users to perform quick bulk actions on selected SIMs (1 or more).
 
 ![menubar](/menubar.png)
 
-* Export the selected SIMs or all SIMs into excel file
+* ↓ ：Export the selected SIMs or all SIMs into excel file
+    * Selected SIMs: checked SIMs from current page and other pages
+    * All SIMs: all the SIMs in the current table of all pages 
+
 * Edit tags
 * Edit notes
 * Send SMS to the selected SIM
+* Edit device name
+* Transfer SIMs
+
 ::: tip
 Edit tags or notes in bulk will **override** the existing tags/notes.
 :::
 
+::: info
+**Transfer SIMs**
+For more information on how to transfer SIMs between organisations, please check: [Transfer SIM How-to](/sim/transfer)
+
+:::
 
 ---
-### Columns
+## SIM List 🔢
 Data columns of the SIM List are:
 
 | Columns        | Description           | Remarks  |
 | ------------- |-------------| -----|
+| **Tags** | Customizable tags for SIMs.Tags can be used to filter and group SIMs.| Max. 5 tags per SIM and max. 10 characters per tag |
+| **Name** |Device name for SIMs.| Max. 40 characters|
 | **ICCID** |The unique **I**ntegrated **C**ircuit **C**ard **Id**entification Number of the SIM by global standards.||
-| **Organisation** |Organisation that owns the SIM asset.||
-| **IMEI** | **I**nternational **M**obile **E**quipment **I**dentity that identifies the device which uses the SIM.| Dial `*#06#` on a screened device to find out the IMEI|
-| **MSISDN**| **M**obile **S**tation **I**ntegrated **S**ervices **D**igital **N**etwork is the phone number which identifies a device during calls or data sessions.||
+| **MSISDN**| **M**obile **S**tation **I**ntegrated **S**ervices **D**igital **N**etwork is a unique number that can be useful in calls or sms service.||
 | **Status** | It indicates the current life cycle stage of the SIM.| refer to [SIM status](/guide/simstatus) for more details.|
-| **Tags** |Add, edit or remove tags for individual SIM or SIMs in bulk.Tags can be used to filter and group SIMs.| Max. 5 tags per SIM and max. 10 characters per tag |
-| **Notes** |Add, edit or remove notes for SIMs.| Max. 40 characters per note|
-| **Expire At** | When service contract expires for the SIM. | [Grace period](simstatus) applies upon expiration.|
-| **Network** | Local network of the last data session | Empty if no session in the last 3 months |
-| **Last Session Time** | Last data session start time | Empty if no session in the last 3 months |
-| **Usage** | Data usage of the current service cycle | day, month or year |
+| **Cycle Usage** | Data usage of the current service cycle | day, month or year |
 | **Limit** | Data limit of the current service cycle | day, month or year|
 
 
 ::: tip
-Search for IMEI, ICCID, MSISDN etc in the column. You can also quick search a SIM by simply **entering its ending digits**.
+You can also quick search a SIM by simply **entering its ending digits** in the ICCID or MSISDN column search bar.
 
-It also applies to `IMEI`, `MSISDN` searching.
+**Multi-search mode** is supported here too.
 
 ![search imei](/searchiccid.png)
 :::
 
 ::: tip
-Quickly find out the top-10 data usage SIMs by sorting `Usage` column
+Quickly find out the top-10 data usage SIMs by sorting `Usage` column; And the usage will be painted in alerting red once it exceeds the limit, in order to raise awareness.
+
 ![sort usage](/sortusage.png) 
 :::
 
 ::: tip
-Hit `Refresh` icon button 🔄 in the tool bar to clear all the filtering, sorting and searching citeria.
+Hit `Refresh` icon button 🔄 in the tool bar to clear all the column **search, sorting and searching** citeria.
 :::
 
 
----
-### SIM Detail
-You may press ▶ to expand more SIM detail. Some important information include:
+## SIM Collpasible Detail 🔽
+You may press ▶ to expand more SIM detail. There are 3 cards:
+* **Basic**
+* **Connection**
+* **Service**
+
+![3cards](/3cards.png)
 
 
----
-#### Status progress
-![status progress](/statusprogress.png)
 
-It indicates the **start and estimated end date** of the **current** SIM status.
+### Basic Info Card
+Basic information of a SIM. 
 
----
-#### Bundle Info
-![bundle info](/bundleinfo.png)
-
-Validity of the bundle is usually comensurate with the "active" status progress. Expiration of the service bundle could very well mean the expiration of the SIM should there be **NO** other service bundle or top-up package in place.
-
-::: info
-Click [here](/sim/overage) for **overage policy deep-dive**
+::: info Go to
+[SIM - Basic](simbasic)
 :::
 
----
-#### Usage History
-Data usage history can be queried via date picker and can be downloaded.
 
-::: warning Limitation
-Usage history can't be dated back to more than 12 months ago.
+
+### Connection Card
+In connection section, you can see a consolidated information of SIM's most current status of connection, the last connected time and place, and we even offer diagnositics in the event of disconnection. 
+
+::: info Go to
+[SIM - Connection](simconnection)
 :::
----
-### Bundle History
-You may refer to bundle history in case SIM has subscribed to more than 1 service bundle. It can be exported.
 
----
-### CDR
-![cdr](/more.png)
 
-Click **CDR** to check all the **data/voice/sms sessions** of the SIM in a given time span.
+### Service Card
+Services available with the SIM.
+
+::: info Go to
+[SIM - Service](simservice)
+:::
+
+
