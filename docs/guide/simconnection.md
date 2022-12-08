@@ -33,7 +33,7 @@ Click on the country name to find out the **exact geographical locations (of the
 
 Due to some restrictions in China, click the button on the right top corner to switch between the google map (outside of China) and amap.
 
-![cells](/cells.JPEG)
+![cells](/cells.png)
 
 
 :::
