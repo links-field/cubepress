@@ -29,9 +29,13 @@ The volume of the last session. In case of a data session, it indicates the volu
 Country of the last session. 
 
 ::: tip
-Click on the country name to find out the **exact geographical locations** the device has visited in the **last 24/48 hours** on a map. 
+Click on the country name to find out the **exact geographical locations (of the cells)** the device has visited in the **last 24/48 hours** on a map. 
 
 Due to some restrictions in China, click the button on the right top corner to switch between the google map (outside of China) and amap.
+
+![cells](/cells.JPEG)
+
+
 :::
 
 ## Network
