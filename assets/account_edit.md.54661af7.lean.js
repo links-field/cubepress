@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as i}from"./app.92f30df8.js";const m=JSON.parse('{"title":"Edit","description":"","frontmatter":{},"headers":[],"relativePath":"account/edit.md","lastUpdated":1670506442000}'),s={name:"account/edit.md"},o=i("",5),d=[o];function c(n,r,l,p,_,u){return a(),t("div",null,d)}var f=e(s,[["render",c]]);export{m as __pageData,f as default};
