@@ -32,8 +32,8 @@ Hit the `diagnose` button, you can get a quick diagnosis revolving the status an
 
 | SIM State        | ✅  Healthy        | ❌ Reasons of disconnection |
 | ------------- |-------------| -----|
-| Pre-activated | Test Data > 0 |  Test Data < 0 or unavailable|
-|  | Test Period > 0 |  Test Period < 0 or unavailable|
+| Pre-activated | Test Data > 0 |  Test Data <= 0 or unavailable|
+|  | Test Period > 0 |  Test Period <= 0 or unavailable|
 |  | MNO Status is `active` |  MNO Status is not `active`|
 | Active | In use bundle == true |  In use bundle == false or unavailable|
 |  | MNO Status is `active` |  MNO Status is not `active`|
