@@ -52,6 +52,7 @@ export default {
                 { text: 'SIM Status', link: '/guide/simstatus'},    
                 { text: 'CDR', link: '/guide/cdr'},
                 { text: 'SMS', link: '/guide/sms'},
+                { text: 'Task Center', link: '/guide/taskcenter'},
                 { text: 'Support', link: '/guide/support'},
 
 
@@ -63,8 +64,9 @@ export default {
               items: [
                 { text: 'Introduction', link: '/sim/' },
                 { text: 'SIM', link: '/sim/sim' },
-                { text: 'Pause SIM', link: '/sim/pausesim'},
-                { text: 'Overage Policy', link: '/sim/overage'}
+                { text: 'Pause a SIM', link: '/sim/pausesim'},
+                { text: 'Overage Policy', link: '/sim/overage'},
+                { text: 'Transfer SIMs', link: '/sim/transfer'}
               ]
             },
             {
