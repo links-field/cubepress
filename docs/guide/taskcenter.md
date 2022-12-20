@@ -7,7 +7,7 @@ Cube v1.3 has introduced the task center. Its responsiblities include
 * `Large data export`
 > such as SIM export, CDR export
 
-that usually require some time to complete. Customers can continue to use the CUBE while the task is being processed in the task center.
+that usually require some time to complete. Users can continue to use CUBE while the task is being processed in the task center.
 
 
 ## Feature Set
