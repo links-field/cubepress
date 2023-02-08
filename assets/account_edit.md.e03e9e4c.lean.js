@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as i}from"./app.3395db7b.js";const m=JSON.parse('{"title":"Edit","description":"","frontmatter":{},"headers":[],"relativePath":"account/edit.md","lastUpdated":1675843666000}'),s={name:"account/edit.md"},o=i("",5),d=[o];function c(n,r,l,p,_,u){return a(),t("div",null,d)}var f=e(s,[["render",c]]);export{m as __pageData,f as default};
