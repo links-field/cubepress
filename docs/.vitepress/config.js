@@ -23,7 +23,8 @@ export default {
           },
         nav: [
             { text: '🏠 Home', link: '/'},
-            { text: 'Cube', link: 'https://beta.iotcube.link'},
+            { text: 'FAQ', link: '/faq/'},
+            { text: 'Cube', link: 'https://www.iotcube.link'},
             { text: 'About Links Field', link: 'https://www.linksfield.net' },
             
         ],
@@ -80,6 +81,16 @@ export default {
                 { text: 'Introduction', link: '/org/'},
                 
                 { text: 'Manage', link:'/org/manage'},
+              ]
+            },
+            {
+              text: 'FAQ',
+              collapsible: true,
+              items: [
+                { text: "General", link: '/faq/'},
+                { text: 'Account', link: '/faq/account'},
+                { text: 'Organisation', link: '/faq/organisation'}
+            
               ]
             },
           ]

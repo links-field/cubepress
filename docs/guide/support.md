@@ -8,7 +8,7 @@ For account, cube funciton related issues, feedback, support requests:
 :::
 
 ::: info 
-For new order related:
+For orders related inquiries:
 [to: sales@linksfield.net](mailto:sales@linksfield.net)
 :::
 
