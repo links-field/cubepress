@@ -13,6 +13,11 @@ export default {
         searchMaxSuggestions: 10,
         lastUpdated: true,
         lastUpdatedText: 'Updated Date',
+        algolia: {
+          appId: 'YZOCYQPX31',
+          apiKey: '4cb863651a4230f496af3e488a2b83e3',
+          indexName: 'cubepress'
+        },
         editLink:{
             pattern: 'https://github.com/links-field/cubepress/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
