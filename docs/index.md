@@ -21,7 +21,7 @@ features:
   - title: About Cube
     icon: 🎛
     link: /guide/gettingstarted
-    details: Cube is the IoT connectivity service management platform that steamlines your IoT operations and supercharge your productivity
+    details: Cube is the IoT connectivity service management platform that streamlines your IoT operations and supercharge your productivity
   - title: About Cube Press
     icon: 📙
     details: Here at Cube Press we present to you the playbook of Cube IoT. Guides, FAQ as well as other handy IoT information and latest news at your fingertips.
