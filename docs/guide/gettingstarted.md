@@ -56,10 +56,10 @@ Click [here](checksim) to find out more about the SIM operations.
 :::
 
 ## 💌 SMS
-Cube offers a way to send SMS to SIMs, either individually or in bulk. 
+Cube offers a way to send SMS to SIMs, both individually and in bulk. 
 
 ::: tip 
-Do note that not all SIMs support this feature. The greyed button suggests 'not supported'.
+Do note that not all SIMs support this feature. The greyed(disabled) `Send SMS` button suggests 'not supported'.
 :::
 
 ::: info SMS

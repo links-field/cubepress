@@ -80,8 +80,8 @@ Similarly as company hierarchy, agent hierarchy **authorises its sub level Organ
 Unlike company hierarchy, in this case operations of Industry A and B are **of no interest** to Thomas.
 
 ## Mixed Model
-In above example, **Mary** can again develop her own organisational structure based on either company hierarchy or centralised model. 
+In the example above, **Mary** can also develop her own organisational structure based on either company hierarchy or centralised model. 
 
 
 ---
-**From simple to complex, Cube's organisation feature can help you acheive your desired network of organisations with both security and flexibility.** 
+**From simple to complex, Cube's organisation feature can help you acheive your desired network of organisations,offering both security and flexibility.** 

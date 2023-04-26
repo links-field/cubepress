@@ -1,4 +1,4 @@
-# Task Center
+# Task Center <Badge type="tip" text=">1.3"/>
 
 ## Overview
 Cube v1.3 has introduced the task center. Its responsiblities include
@@ -29,8 +29,9 @@ By clicking on the task type, the task detail will be presented from the right.
 ## Task Center Support
 | Operations        |  Access           | Status  | Page Link |
 | ------------- |-------------| -----|---|
-| `SIM export`     | from 'SIM' | `supported` | [detail](/sim/transfer)
+| `SIM export`     | from 'SIM' | `supported` | [detail](/sim/transfer) |
 |`Transfer SIM`| from 'SIM' | `supported`|
 |`CDR export`| from 'CDRs' | `supported` |
-|`Edit Tags and notes`| from 'SIM' | `developing` | 
+|`Edit Tags and notes`| from 'SIM' | `developing` | |
+|`Upload IMEI` | from 'SIM' | `developing` | |
 

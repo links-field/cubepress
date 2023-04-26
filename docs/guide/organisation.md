@@ -44,7 +44,13 @@ If you switch to an organisation with a different role, **the menu will be displ
 :::
 
 ## Transfer SIMs between organisation
-> Under development
+> used together with Task Center
+
+When the account is of admin role with both current organisation and the target organisation, the account can transfer SIMs between these two organisations. 
+
+:::tip 
+➡️ [How to transfer SIMs](/sim/transfer)
+:::
 
 ## More
 ::: tip

@@ -1,18 +1,19 @@
 # SMS
 > Short Message Service
 
-Cube provides streamlined **S**hort **M**essage **S**ervice from the platform where Operator can send SMS to single SIM or targeted SIMs in bulk.
+Cube provides streamlined **S**hort **M**essage **S**ervice from the platform where Operator can send SMS to single SIM or SIMs in bulk.
 
 ## Sending an SMS
 SMS can be accessed via:
 * **SIM List: Menu bar on top of the table**
-    * Send to selected SIM (ticked)
-    * One or many
+    * Send to selected SIMs (checked)
 * **SIM List: the action column of the table**
     * Send to single SIM
 * **SMS Menu from the Navigation Sidebar ( on the left)**
     * Import a list of SIMs to send SMS to
     * Or manually input the list
+* **Cube API**
+    * `POST /sms`
 
 ## SMS Sending Record
 Simply goes to the SMS menu to view the SMS sending records. 
