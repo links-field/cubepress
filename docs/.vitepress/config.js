@@ -1,7 +1,7 @@
 export default {
     //description meta tag for the site
     title: 'Cube Press',
-    base: '/cubepress/',
+    base: '/',
     lang: 'en-US',
     description: 'IOT Cube Documentation',
     lastUpdated: true,
@@ -59,6 +59,7 @@ export default {
                 { text: 'CDR', link: '/guide/cdr'},
                 { text: 'SMS', link: '/guide/sms'},
                 { text: 'Task Center', link: '/guide/taskcenter'},
+                { text: 'Auto Flow', link: '/guide/autoflow'},
                 { text: 'Support', link: '/guide/support'},
 
 
