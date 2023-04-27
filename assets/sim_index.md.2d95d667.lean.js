@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,R as i}from"./chunks/framework.55a7f079.js";const u=JSON.parse('{"title":"SIM","description":"","frontmatter":{},"headers":[],"relativePath":"sim/index.md","lastUpdated":1682503135000}'),s={name:"sim/index.md"},r=i("",3),l=[r];function o(n,_,c,d,h,m){return t(),a("div",null,l)}const f=e(s,[["render",o]]);export{u as __pageData,f as default};
