@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s,R as o}from"./chunks/framework.27a1c15b.js";const m=JSON.parse('{"title":"SMS","description":"","frontmatter":{},"headers":[],"relativePath":"guide/sms.md","lastUpdated":1682650968000}'),i={name:"guide/sms.md"},a=o("",13),n=[a];function l(r,c,d,S,h,p){return s(),t("div",null,n)}const g=e(i,[["render",l]]);export{m as __pageData,g as default};
