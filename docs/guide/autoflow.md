@@ -12,7 +12,7 @@ On the Autoflow page, you'll find a comprehensive list of all the autoflows crea
 We've also provided a selection of **popular Autoflow templates** at the bottom of the page, to facilitate a seamless experience and help you kickstart your automation journey with ease.
 
 ## Create
-Click "create" button or use a template to start creation.
+Click "+ Autoflow" button or use a template to start creating an autoflow.
 
 ### 1. Event Trigger & Condition
 
@@ -21,7 +21,7 @@ Set up the event and the right conditions for the automated task. Here is the li
 |Event|Sub-type| Condition Detail| Support |
 |--|--|--|--|
 | Data usage | single SIM - value & percentage | monitor single SIM's usage by value or percentage of quota | `yes` |
-|| mutiple SIMs - total value| monitor total usage of multiple SIMs by value  | `yes`|
+|| mutiple SIMs - total value| monitor total usage of multiple SIMs by value  | `developing`|
 || mutiple SIMs - percentage | monitor total usage of multiple SIMs by data pool percentage | `developing`|
 |SMS usage| | monitor SMS Usage| `developing`|
 |SIM status change| | monitor SIM Life cycle changes | `developing`|
@@ -42,9 +42,11 @@ Once the event & trigger condition is set, you may decide the scope to apply thi
 |`Choose tags`| SIMs with the tags will be selected | `dynamic` |
 |`Package`| SIMs that have been assigned with the package | `dynamic` |
 
-:::tip
-The dynamic selection is a convenient method for monitoring all eligible SIMs/Devices based on criteria such as `Tags`, `Package`, or `Organization`. For instance, when setting tags to `USA-FleetA`, any new SIMs given this tag will be automatically included in the scope of this autoflow.
 
+:::tip
+- The dynamic selection is a convenient method for monitoring all eligible SIMs/Devices based on criteria such as `Tags`, `Package`, or `Organization`. For instance, when setting tags to `USA-FleetA`, any new SIMs given this tag will be automatically included in the scope of this autoflow.
+
+- Although the scope is set to static by explicitly spcifying ICCIDs to monitor, if the SIMs are transferred outside of the current organisation, the autoflow will have no effect on them.
 :::
 
 
@@ -58,11 +60,11 @@ You may set up multiple actions for one event trigger
 
 Supported Actions:
 
-|Category|Action| Detail | Status|
+|Category|Action| Detail | Support|
 |--|--|--|--|
-|Notification|Email| you can create an email group for multiple recipients to receive notification | Support |
-||API| Set a URL to receive event notification | `Developing`|
-|Operation| Stop/resume SIM Service |  | `developing` |
+|Notification|Email| you can create an email group for multiple recipients to receive notification | `yes` |
+||API| set a URL to receive event notification | `developing`|
+|Operation| stop/resume SIM Service |  | `developing` |
 ||Top up| | `developing`|
 ||Auto renew| |`developing`|
 
@@ -102,5 +104,5 @@ On the bottom, we also make information on autoflow run history and the activity
 ![autoflow-history](/autoflow-history.png)
 
 ::: info
-Click on "view", you may see futher details about each action's result, for example, if the email has been sent successfully.
+Click on "view", you may see futher details about each action's result, for example, if the email has been sent successfully to each recipient.
 :::
