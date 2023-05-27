@@ -23,7 +23,7 @@ This chapter describes SIM life cycle stages.
 
 * When SIMs are **shipped**, by default they are set to be in **pre-activated period/state**.
 
-* SIMs that come with a complementary **Test Package**, (100KB or other volume, depending on the terms of the service contract), could use the test package service during pre-activated period.
+* SIMs that come with a complementary **Test Package**, (100KB or more, depending on the terms of the service contract), could use the test package service during pre-activated period.
 
 * Pre-activation period is typically set to be **0~6** months (depending on the terms of the service contract and it could be extended in some cases).
 
