@@ -7,7 +7,7 @@ When you click on the ICCID of the SIM in the SIM table, the SIM detail gets dis
 
 The first section gives you an overview of the SIM
 * ICCID
-* Card OS technology label
+* SIM OS technology label
 * SIM current status and its life cycle transition diagram
 * Expiry date
 * Usable data in current billing cycle
@@ -15,7 +15,7 @@ The first section gives you an overview of the SIM
 ![SIM-overview](/simdetail-overview.png)
 
 When clicking on "More", additional information will be displayed:
-* Tags (at most 10)
+* Tags (max. 10)
 * IMSI
 * IMEI
 * Delivery Note Number
@@ -40,11 +40,11 @@ The SIM connection status and the most recent 10 CDR session records are display
 
 
 ## Usage
-Usage summarises and visualises the data/sms usage in the past 6 months/30 days
+The usage in the past 6 months/30 days is summarised and visualised in this section. You could toggle between data and sms usage.
 
 
 ## Bundles
-Bundle history of the SIM is displayed here. Click on each line to find more about the bundle.
+Bundle history of the SIM is displayed here. Click on each line to find out more about the bundle.
 
 
 ## SMS
