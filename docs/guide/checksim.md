@@ -55,7 +55,36 @@ For more information on how to transfer SIMs between organisations, please check
 
 :::
 
----
+
+## Advanced SIM Search <Badge type="danger" text="NEW"/>
+![advancedsearch](/advancedsearch.png)
+
+**Advanced Search** offers a streamlined and efficient way to locate the SIMs you need, reducing the time and effort required. You can use a combination of filters, with default logical relationship of **AND** (`&&`), to query the SIMs you need. 
+
+Click the search bar and select from the list of supported keywords and select/input the value for each condition.
+
+![searchkeywords](/searchkeywords.png)
+
+Please be noted that there are 4 types of operators to define the condition:
+|Operator| Definition| Example | Result | 
+|----|----|---| ----| 
+|= | exact match| ICCID `=` `892023832048402010001` | found the SIM that has exact ICCID of xxxx001 |
+|in|  or, match any of the value | Status `in` ( `pre-activated`, `active` )| found a list of SIMs that are either in pre-activated or active status | 
+|>=, <=, between| number range | Usage between (`1`, `100`) | found a list of SIMs that has a current cyclic usage of between 1 - 100MB, inclusive of both values. | 
+|~| like, fuzzy search | Device name `~` `Fleet` | found SIMs with device name `fleet abc`, `fleet US`, `US Fleet 183B`|
+
+:::warning NOTICE
+But do note that: combining two conflicting search conditions, could result in `no data` found.
+
+For example: 
+`ICCID` `=` `8910304824984911130` `IMSI` `=` `1038`
+
+There will be no SIM that could match these two conditions at the same time.
+
+:::
+
+
+
 ## SIM List 🔢
 Data columns of the SIM List are:
 
@@ -78,11 +107,6 @@ You can also quick search a SIM by simply **entering its ending digits** in the 
 ![search imei](/searchiccid.png)
 :::
 
-::: tip
-Quickly find out the top-10 data usage SIMs by sorting `Usage` column; And the usage will be painted in alerting red once it exceeds the limit, in order to raise awareness.
-
-![sort usage](/sortusage.png) 
-:::
 
 ::: tip
 Hit `Refresh` icon button 🔄 in the tool bar to clear all the column **search, sorting and searching** citeria.
