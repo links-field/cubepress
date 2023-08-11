@@ -1,0 +1,1 @@
+import{_ as o,c as a,o as e,R as r}from"./chunks/framework.27a1c15b.js";const _=JSON.parse('{"title":"Order SIMs","description":"","frontmatter":{},"headers":[],"relativePath":"guide/order.md","lastUpdated":1691744872000}'),t={name:"guide/order.md"},s=r("",7),n=[s];function i(d,l,c,h,u,g){return e(),a("div",null,n)}const m=o(t,[["render",i]]);export{_ as __pageData,m as default};
