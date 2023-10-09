@@ -79,7 +79,11 @@ https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/var
 }
 
 :root {
-  --vp-c-brand: #fa194a;
+  --vp-c-brand: #ea1845;
+  --vp-c-brand-1: var(--vp-c-brand);
+  --vp-c-brand-2: var(--vp-c-brand);
+  --vp-c-brand-3: var(--vp-c-brand);
+  --vp-c-indigo-soft: var(--vp-c-brand);
   --vp-c-brand-light: #ea2c55;
   --vp-c-brand-dark: #ff7e2e;
   --vp-c-brand-darker: #fc863c;
@@ -149,9 +153,11 @@ img:not(.VPImage) {
   border-radius: 10px;
   box-shadow: 0 4px 10px 3px rgba(0, 0, 0, 0.1), 0 6px 30px 6px rgba(0, 0, 0, 0.09);
 }
+
 img:hover{
   box-shadow: 0 0 0 0;
 }
+
 
 .dark {
   --vp-custom-block-info-border: var(--vp-c-divider-light);

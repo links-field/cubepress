@@ -1,18 +1,15 @@
 {
-  "name": "cubepress",
-  "version": "1.0.0",
-  "description": "cube beta docs",
-  "main": "index.js",
-  "author": "meganyang",
-  "license": "MIT",
-  "private": true,
   "devDependencies": {
+<<<<<<< Updated upstream
     "vitepress": "^1.0.0-alpha.74",
     "vue": "^3.2.37"
+=======
+    "vitepress": "^1.0.0-rc.20"
+>>>>>>> Stashed changes
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs --port 8080"
+    "docs:preview": "vitepress preview docs"
   }
 }

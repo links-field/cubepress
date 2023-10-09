@@ -1,4 +1,8 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+
+
+export default defineConfig({
     //description meta tag for the site
     title: 'Cube Press',
     base: '/',
@@ -6,7 +10,6 @@ export default {
     description: 'IOT Cube Documentation',
     lastUpdated: true,
     lastUpdatedText: 'Update Date',
-
     themeConfig: {
         logo: '/logo.png',
         search: false,
@@ -110,4 +113,4 @@ export default {
           ]
     },
     
-}
+})

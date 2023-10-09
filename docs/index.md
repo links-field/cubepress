@@ -2,8 +2,8 @@
 layout: home
 hero:
   name: Cube Press
-  text: Cube Documentation Center
-  tagline: IoT Platform to supercharge your producivity
+  text: Your Doc Center
+  tagline: for IoT Platform to supercharge your producivity
   image:
     src: /book.png
     alt: CubePress

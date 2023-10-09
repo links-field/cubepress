@@ -1,11 +1,26 @@
 {
+<<<<<<< Updated upstream
   "hash": "5f76e503",
   "browserHash": "143d53e9",
+=======
+  "hash": "8689e2c5",
+  "browserHash": "9c7ad69b",
+>>>>>>> Stashed changes
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
+<<<<<<< Updated upstream
       "fileHash": "94f3ffef",
+=======
+      "fileHash": "f210abe1",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "78a779c9",
+>>>>>>> Stashed changes
       "needsInterop": false
     }
   },
