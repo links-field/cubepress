@@ -20,7 +20,7 @@ In order to ensure the authenticity and originality of the notification messages
 
 
 * There should only be **one** notification key.
-* It is automatically created by Cube whenever an API notification autoflow is created.
+* It is automatically created by Cube whenever an API notification autoflow is to be sent or an API key is created.
 * It can't be deleted.
 * It can be refreshed by **admin** - same key ID with different key value.
 
