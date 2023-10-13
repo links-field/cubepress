@@ -1,4 +1,4 @@
-# Task Center <Badge type="tip" text=">1.3"/>
+# Task Center <Badge type="danger" text=">1.3"/>
 
 ## Overview
 Cube v1.3 has introduced the task center. Its responsiblities include

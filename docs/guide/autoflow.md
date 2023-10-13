@@ -1,4 +1,5 @@
-# Autoflow <Badge type="tip" text=">1.4"/>
+# Autoflow <Badge type="danger" text=">1.4"/>
+
 
 **Streamline Your Operations Effortlessly** :
 The Autoflow feature is an automation tool designed to transform the way you manage and execute tasks. With this feature enabled, you can efficiently automate repetitive tasks, enhance productivity, and minimize human error.

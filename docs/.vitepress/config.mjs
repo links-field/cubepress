@@ -65,6 +65,7 @@ export default defineConfig({
                 { text: 'SMS', link: '/guide/sms'},
                 { text: 'Task Center', link: '/guide/taskcenter'},
                 { text: 'Auto Flow', link: '/guide/autoflow'},
+                { text: 'Developer', link: '/guide/developer' },
                 { text: 'Support', link: '/guide/support'},
 
 

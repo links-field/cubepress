@@ -2,3 +2,5 @@ node_modules
 docs/.vitepress/dist/
 .DS_Store
 */DS_Store
+yarn.lock
+docs/.vitepress/cache/
