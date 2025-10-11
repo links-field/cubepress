@@ -2,6 +2,9 @@
 # Scheduled SMS Service  
 > Cube provides a scheduled SMS service that allows you to create messages to be sent at specified times. It also supports automatic recurring delivery.
 
+![Scheduled SMS](/scheduledsms.png)
+
+
 ## Sending a Scheduled SMS 
  Access the feature:
 - Click the SMS menu in the left navigation sidebar.  
