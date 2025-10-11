@@ -64,6 +64,7 @@ export default defineConfig({
                 { text: 'SIM Detail', link: '/guide/simdetail'},       
                 { text: 'CDR', link: '/guide/cdr'},
                 { text: 'SMS', link: '/guide/sms'},
+                { text: 'Scheduled SMS', link: '/guide/scheduledsms'},
                 { text: 'Task Center', link: '/guide/taskcenter'},
                 { text: 'Auto Flow', link: '/guide/autoflow'},
                 { text: 'Developer', link: '/guide/developer' },
