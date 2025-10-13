@@ -28,14 +28,15 @@
 - Navigate to the All SMS menu.  
 - Filter records by selecting the Scheduled type.
   
-::: TIP 
+::: tip
 Status column indicates the whether the SMS sent is succesful.
 :::
+
 ### Execution history:  
 - Click on the ID of the Scheduled SMS to view its execution history.
 - Display the execution time and status of each scheduled task.
 - Shows counts of successful/failed deliveries.
   
-::: TIP
+::: tip
 If your SMS quota is lower than the scheduled message quantity, no messages in the batch will be sent.
 :::
